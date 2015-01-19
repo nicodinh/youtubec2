@@ -99,7 +99,6 @@ ACESDone();
 // new cr.Property(ept_font,		name,	"Arial,-16", 	description)		// a font with the given face name and size
 // new cr.Property(ept_combo,		name,	"Item 1",		description, "Item 1|Item 2|Item 3")	// a dropdown list (initial_value is string of initially selected item)
 // new cr.Property(ept_link,		name,	link_text,		description, "firstonly")		// has no associated value; simply calls "OnPropertyChanged" on click
-// property_list[1].name = Map State Option
 
 var property_list = [
 
