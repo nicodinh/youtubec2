@@ -156,7 +156,15 @@ IDEInstance.prototype.OnDoubleClicked = function()
 // Called after a property has been changed in the properties bar
 IDEInstance.prototype.OnPropertyChanged = function(property_name)
 {
-
+/*
+	if (property_name === "age")
+	{
+		if (this.properties["age"] < 18) 
+		{
+			alert(this.properties["age"]);	
+		}
+	}
+	*/
 }
 
 // For rendered objects to load fonts or textures
